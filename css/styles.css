@@ -1,0 +1,120 @@
+/************* Header *************/
+.nav-item{
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 12px;
+  padding-right: 15px;
+}
+.header-logo-widget img{
+  width: 220px;
+}
+/************* Main *************/
+#main .carousel-inner img{
+  height: 70vh;
+  object-fit: cover;
+  filter: grayscale(70%);
+}
+#carousel{
+  position: relative;
+}
+#carousel .overlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding-top: 70px;
+}
+/************* Cards *************/
+
+
+/************* Who are *************/
+#whoare{
+  background: #0d3545;
+  color: white;
+}
+#whoare img {
+  max-width: 100%;
+}
+/************* Footer *************/
+#footer{
+  font-family: Helvetica;
+  font-weight: lighter;
+  padding: 20px 0px;
+  text-align: center;
+  font-size: 12px;
+  background: #0d3545;
+  color: #fff;
+  position: relative;
+}
+.footer-title-text{
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #aaa;
+}
+.footer-content-text{
+  letter-spacing: 0.5px;
+}
+.logo{
+  height: 120px;
+}
+.social-icons{
+  color: white;
+  font-size: 30px;
+  text-decoration: none !important;
+}
+#footer > [class$=widget]{
+  margin-bottom: 25px;
+}
+
+/************* Media Queries *************/
+/* Extra small devices */
+@media (max-width: 575px){
+}
+/* Small devices */
+@media (min-width: 576px) and (max-width: 767px){
+  .header-logo-widget img{
+    width: 300px;
+  }
+}
+/* Medium devices */
+@media (min-width: 768px) and (max-width: 991px){
+  #footer{
+    padding-top: 30px;
+  }
+  .logo{
+    height: 100px;
+  }
+  .header-logo-widget img{
+    width: 300px;
+  }
+}
+/* Large devices */
+@media (min-width: 992px) and (max-width: 1199px){
+  #footer{
+    padding-top: 30px;
+  }
+  .logo{
+    height: 120px;
+  }
+  .header-logo-widget img{
+    width: 300px;
+  }
+}
+/* Extra large devices */
+@media (min-width: 1200px){
+  #footer{
+    padding-top: 30px;
+  }
+  .logo{
+    height: 150px;
+  }
+  .header-logo-widget img{
+    width: 300px;
+  }
+}

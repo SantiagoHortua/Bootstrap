@@ -1,0 +1,15 @@
+Slab Serif o Egipcia
+
+Descripción
+  Se caracteriza por la poca diferencia entre las líneas gruesas y finas.
+  Los remates suelen ser tan gruesos como las propias líneas verticales y
+  no suelen tener soporte. Los tipos de letra slab tienen apariencia fuerte
+  y rectangular. En ocasiones los caracteres son de anchura fija, es decir,
+  todos ocupan lo mismo horizontalmente.
+
+  Muy recomendables por ser atractivas y guardar el toque clásico
+  de una serifa tradicional. En combinación con una de las anteriores
+  sin serifa dan un resultado muy convincente.
+
+Uso y tipografía recomendada
+  Para el título y enlaces de navegación, aunque también se ve cada vez más para el cuerpo.
